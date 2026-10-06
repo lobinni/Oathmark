@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+
+# builds
+/.next
+/out
+
+# environment — never commit secrets or local overrides
+.env
+.env.local
+.env.*.local
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# caches & logs
+.turbo
+*.log
+.DS_Store
+
+# test coverage
+/coverage

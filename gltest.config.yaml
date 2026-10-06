@@ -1,0 +1,9 @@
+# gltest configuration (GenLayer contract test runner)
+network: localnet
+contracts:
+  oathmark:
+    path: contracts/oathmark.py
+    config:
+      leader_only: false
+consensus:
+  runs: 3

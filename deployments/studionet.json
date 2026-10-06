@@ -1,0 +1,11 @@
+{
+  "network": "GenLayer Studionet",
+  "chainId": 61999,
+  "rpcUrl": "https://studio.genlayer.com/api",
+  "explorerUrl": "https://explorer-studio.genlayer.com",
+  "contract": "contracts/oathmark.py",
+  "contractAddress": "0x99C44A4bA20360e65879D4aF69018FF58665F63e",
+  "explorerAddressUrl": "https://explorer-studio.genlayer.com/address/0x99C44A4bA20360e65879D4aF69018FF58665F63e",
+  "authoritySchema": "oathmark-authority-v1",
+  "status": "live"
+}

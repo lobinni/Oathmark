@@ -1,0 +1,32 @@
+ACME DEMO SERVICE — SERVICE LEVEL COMMITMENT
+Effective date: published version of this file
+Document: public uptime promise for manual testing
+
+SCOPE
+This commitment applies to the Acme demo service production environment
+and to every customer with an active subscription.
+
+UPTIME PROMISE
+The service maintains at least 99 percent monthly uptime.
+
+Uptime is measured per calendar month across all production regions.
+A month in which the service is unreachable for more than 0.9 percent of
+the minutes in that month qualifies the customer for a service credit of
+one full month of subscription fees, claimable through support.
+
+MEASUREMENT
+Availability is measured from at least three independent monitoring
+regions at five-minute intervals. A failed check in two or more regions
+at the same time counts as five minutes of unavailability.
+
+MAINTENANCE
+Scheduled maintenance windows are announced at least 72 hours in advance
+through the status page and count against the same monthly budget. No
+maintenance window may exceed four hours.
+
+REPORTING
+Monthly uptime reports are published within the first five business days
+of the following month and list every qualifying unavailability period.
+
+This document is the complete and authoritative statement of the uptime
+commitment for the demo service. No other document amends it.

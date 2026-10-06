@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Acme Demo Service — Uptime Promise</title>
+  <style>
+    :root { --ink: #07110e; --bg: #f3f5f0; --paper: #fbfcf9; --muted: #65706b; --line: rgba(11,18,16,.18); --mint: #35d5b4; --deep: #087f71; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.7 ui-sans-serif, system-ui, sans-serif; }
+    .shell { width: min(720px, calc(100% - 40px)); margin: 0 auto; padding: 64px 0 96px; }
+    .kicker { font: 500 10px/1 ui-monospace, "SF Mono", monospace; letter-spacing: .08em; text-transform: uppercase; color: var(--deep); display: flex; align-items: center; gap: 10px; }
+    .kicker::before { content: ""; width: 22px; height: 1px; background: var(--deep); }
+    h1 { font-size: clamp(30px, 6vw, 46px); letter-spacing: -.04em; line-height: 1.02; margin: 18px 0 10px; }
+    .card { background: var(--paper); border: 1px solid var(--line); padding: 28px; margin-top: 26px; }
+    .clause { border-left: 3px solid var(--mint); padding: 6px 0 6px 16px; font-size: 18px; font-weight: 600; letter-spacing: -.01em; }
+    .muted { color: var(--muted); font-size: 13px; }
+    table { width: 100%; border-collapse: collapse; font: 400 11px/1.8 ui-monospace, monospace; margin-top: 14px; }
+    td { border-top: 1px solid var(--line); padding: 8px 0; }
+    td:first-child { color: var(--muted); text-transform: uppercase; letter-spacing: .05em; width: 40%; }
+    code { background: var(--bg); padding: 1px 6px; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="kicker">Test fixture · SLA policy page</div>
+    <h1>Acme Demo Service — Uptime Promise</h1>
+    <p class="muted">
+      This static page is the <strong>frozen official source</strong> for Oathmark manual testing. Host it on a domain
+      you control, then reference its URL when registering a pledge. See the folder README for deployment options.
+    </p>
+
+    <!-- BASELINE STATE: validators must see every clause materially supported here. -->
+    <section class="card" id="policy">
+      <h2 style="margin: 0 0 14px; font-size: 20px;">Service level policy, effective immediately</h2>
+      <p class="clause">The service maintains at least 99 percent monthly uptime.</p>
+      <p class="muted">
+        Uptime is measured per calendar month across all production regions. Scheduled maintenance windows are
+        announced at least 72 hours in advance and count against the same monthly budget.
+      </p>
+    </section>
+
+    <!--
+      WORKFLOW VARIANTS — edit this file, redeploy, then run the next checkpoint.
+
+      ► NARROWED (assessment REVIEW_REQUIRED, right SUSPENDED)
+        Replace the clause paragraph above with:
+          <p class="clause">The service maintains at least 99 percent monthly uptime, excluding weekends and public holidays.</p>
+
+      ► REMOVED (assessment BROKEN, right REVOKED)
+        Delete the clause paragraph entirely (keep the rest of the page reachable).
+
+      ► SOURCE_UNAVAILABLE
+        Rename or delete this index file so the source URL returns an error.
+    -->
+
+    <section class="card">
+      <h2 style="margin: 0 0 6px; font-size: 16px;">Hosting map for the manual test cases</h2>
+      <table>
+        <tr><td>Canonical domain</td><td id="domain-hint">your deployed domain (e.g. project.vercel.app)</td></tr>
+        <tr><td>Source URL</td><td>this page, over HTTPS</td></tr>
+        <tr><td>Manifest</td><td><code>/.well-known/oathmark.json</code> on the same domain</td></tr>
+        <tr><td>Clause (verbatim)</td><td>The service maintains at least 99 percent monthly uptime.</td></tr>
+      </table>
+    </section>
+  </main>
+</body>
+</html>

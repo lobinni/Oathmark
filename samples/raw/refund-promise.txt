@@ -1,0 +1,25 @@
+ACME DEMO SERVICE — REFUND AND SUPPORT COMMITMENTS
+Effective date: published version of this file
+Document: public customer protection policy for manual testing
+
+REFUND COMMITMENT
+Customers may cancel within thirty days and receive a full refund.
+
+The thirty-day window starts on the day of the initial purchase. Refunds
+are returned to the original payment method within ten business days and
+require no justification from the customer.
+
+SUPPORT RESPONSE COMMITMENT
+Support requests receive a first response within one business day.
+
+A first response is a substantive reply from a support engineer, not an
+automated acknowledgement. Business days exclude weekends and public
+holidays in the customer's region.
+
+HOW TO CLAIM
+Send a message to the support channel listed in the account dashboard and
+reference your order number. Both commitments above apply automatically;
+no separate registration is required.
+
+This document is the complete and authoritative statement of the refund
+and support commitments for the demo service. No other document amends it.

@@ -1,0 +1,7 @@
+{
+  "schema": "oathmark-authority-v1",
+  "canonical_domain": "REPLACE_WITH_YOUR_DOMAIN",
+  "issuer": "REPLACE_WITH_YOUR_ISSUER_ADDRESS",
+  "beneficiary": "REPLACE_WITH_YOUR_BENEFICIARY_ADDRESS",
+  "policy_digest": "REPLACE_WITH_DIGEST_FROM_THE_APP"
+}
