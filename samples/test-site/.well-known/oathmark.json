@@ -1,6 +1,6 @@
 {
   "schema": "oathmark-authority-v1",
-  "canonical_domain": "raw.githubusercontent.com",
+  "canonical_domain": "oathmark-test-site.vercel.app",
   "issuer": "0xc782a9c1ee1cfdc7d26aaa3c0649cd6827fd6246",
   "beneficiary": "0xc782a9c1ee1cfdc7d26aaa3c0649cd6827fd6246",
   "policy_digest": "82ec5f9063767e8303daa0ea4af2951cc9ebbc3da978641f8d27b3755cc40e8b"
